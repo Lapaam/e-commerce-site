@@ -1,0 +1,286 @@
+<!DOCTYPE>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device, initial scale=1.0">
+        <title>all products-Redstore sample</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="http://fonts.googleapis.com/css2?
+        family=poppins:wght@300;400;500;600;700&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome-min.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="container">
+                <div class="navbar">
+                        <div class="logo">
+                            <img src="logo.png" width="125px">
+                        </div>
+                        <nav>
+                            <ul id="MenuItems">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="">Product</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Account</a></li>
+                            </ul>
+                        </nav>
+                        <img src="cart.png" width="30px" height="30px">
+                        <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>all Products</h2>
+            <select>
+                <option>Default sorting</option>
+                <option>sort by price</option>
+                <option>sort by popularity</option>
+                <option>sort by rating</option>
+                <option>sort by sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="product-1.jpg">
+                <h4>Red printed T-shirt</h4>
+                <p>#3000</p>
+                <div class="star" >
+                    <div class="rating" onclick="save">
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star2"><label for="star2"></label>
+                        <input type="radio" name="star" id="star3"><label for="star2"></label>
+                        <input type="radio" name="star" id="star4"><label for="star4"></label>
+                        <input type="radio" name="star" id="star5"><label for="star5"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                    <img src="product-2.jpg" onclick="save">
+                    <h4>Black Sneakers</h4>
+                    <p>#3000</p>
+                    <div class="star">
+                        <div class="rating">
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star2"><label for="star2"></label>
+                            <input type="radio" name="star" id="star3"><label for="star2"></label>
+                            <input type="radio" name="star" id="star4"><label for="star4"></label>
+                            <input type="radio" name="star" id="star5"><label for="star5"></label>
+                        </div>
+                    </div>
+                    
+            </div>
+            <div class="col-4">
+                        <img src="product-3.jpg" onclick="save">
+                        <h4>Joggers</h4>
+                        <p>#3000</p>
+                        <div class="star">
+                            <div class="rating">
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                <input type="radio" name="star" id="star2"><label for="star2"></label>
+                                <input type="radio" name="star" id="star3"><label for="star2"></label>
+                                <input type="radio" name="star" id="star4"><label for="star4"></label>
+                                <input type="radio" name="star" id="star5"><label for="star5"></label>
+                            </div>
+                        </div>
+            </div>
+            <div class="col-4">
+                            <img src="product-4.jpg" onclick="save">
+                            <h4>Polo T-shirt</h4>
+                            <p>#3000</p>
+                            <div class="star">
+                                <div class="rating">
+                                    <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                    <input type="radio" name="star" id="star2"><label for="star2"></label>
+                                    <input type="radio" name="star" id="star3"><label for="star2"></label>
+                                    <input type="radio" name="star" id="star4"><label for="star4"></label>
+                                    <input type="radio" name="star" id="star5"><label for="star5"></label>
+                                </div>
+                            </div>
+            </div>
+        </div>
+                <div class="row">
+                <div class="col-4">
+                    <img src="product-5.jpg">
+                    <h4>Ash Ralph Lauren Sneakers</h4>
+                    <p>#3000</p>
+                    <div class="star" >
+                        <div class="rating" onclick="save">
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star2"><label for="star2"></label>
+                            <input type="radio" name="star" id="star3"><label for="star2"></label>
+                            <input type="radio" name="star" id="star4"><label for="star4"></label>
+                            <input type="radio" name="star" id="star5"><label for="star5"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                        <img src="product-6.jpg" onclick="save">
+                        <h4>Black Puma T-Shirt</h4>
+                        <p>#3000</p>
+                        <div class="star">
+                            <div class="rating">
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                <input type="radio" name="star" id="star2"><label for="star2"></label>
+                                <input type="radio" name="star" id="star3"><label for="star2"></label>
+                                <input type="radio" name="star" id="star4"><label for="star4"></label>
+                                <input type="radio" name="star" id="star5"><label for="star5"></label>
+                            </div>
+                        </div>
+                        
+                </div>
+                <div class="col-4">
+                            <img src="product-7.jpg" onclick="save">
+                            <h4>3 pairs,Socks</h4>
+                            <p>#3000</p>
+                            <div class="star">
+                                <div class="rating">
+                                    <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                    <input type="radio" name="star" id="star2"><label for="star2"></label>
+                                    <input type="radio" name="star" id="star3"><label for="star2"></label>
+                                    <input type="radio" name="star" id="star4"><label for="star4"></label>
+                                    <input type="radio" name="star" id="star5"><label for="star5"></label>
+                                </div>
+                            </div>
+                </div>
+                <div class="col-4">
+                                <img src="product-8.jpg" onclick="save">
+                                <h4>Black Fossil Wristwatch</h4>
+                                <p>#3000</p>
+                                <div class="star">
+                                    <div class="rating">
+                                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                        <input type="radio" name="star" id="star2"><label for="star2"></label>
+                                        <input type="radio" name="star" id="star3"><label for="star2"></label>
+                                        <input type="radio" name="star" id="star4"><label for="star4"></label>
+                                        <input type="radio" name="star" id="star5"><label for="star5"></label>
+                                    </div>
+                                </div>
+                </div>
+                        <div class="col-4">
+                            <img src="product-9.jpg">
+                            <h4>Black Michael Kors</h4>
+                            <p>#3000</p>
+                            <div class="star" >
+                                <div class="rating" onclick="save">
+                                    <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                    <input type="radio" name="star" id="star2"><label for="star2"></label>
+                                    <input type="radio" name="star" id="star3"><label for="star2"></label>
+                                    <input type="radio" name="star" id="star4"><label for="star4"></label>
+                                    <input type="radio" name="star" id="star5"><label for="star5"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                                <img src="product-10.jpg" onclick="save">
+                                <h4>Black Sketchers</h4>
+                                <p>#3000</p>
+                                <div class="star">
+                                    <div class="rating">
+                                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                        <input type="radio" name="star" id="star2"><label for="star2"></label>
+                                        <input type="radio" name="star" id="star3"><label for="star2"></label>
+                                        <input type="radio" name="star" id="star4"><label for="star4"></label>
+                                        <input type="radio" name="star" id="star5"><label for="star5"></label>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                        <div class="col-4">
+                                    <img src="product-11.jpg" onclick="save">
+                                    <h4>Ash Trainers</h4>
+                                    <p>#3000</p>
+                                    <div class="star">
+                                        <div class="rating">
+                                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                            <input type="radio" name="star" id="star2"><label for="star2"></label>
+                                            <input type="radio" name="star" id="star3"><label for="star2"></label>
+                                            <input type="radio" name="star" id="star4"><label for="star4"></label>
+                                            <input type="radio" name="star" id="star5"><label for="star5"></label>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="col-4">
+                                        <img src="product-12.jpg" onclick="save">
+                                        <h4>Black Nike Joggers</h4>
+                                        <p>#3000</p>
+                                        <div class="star">
+                                            <div class="rating">
+                                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                                <input type="radio" name="star" id="star2"><label for="star2"></label>
+                                                <input type="radio" name="star" id="star3"><label for="star2"></label>
+                                                <input type="radio" name="star" id="star4"><label for="star4"></label>
+                                                <input type="radio" name="star" id="star5"><label for="star5"></label>
+                                            </div>
+                                        </div>
+                        </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#10152;</span>
+        </div>
+    </div>
+<!------------------------------Footer----------------------->
+    <div class="footer">
+        <div class="small-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download app for IOS and Android devices</p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                        <img src="logo-white.png">
+                        <p>Our Purpose is to make Modern Apparel available to Many</p>
+                </div>
+                <div class="footer-col-3">
+                        <h3>Useful links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>blog posts</li>
+                            <li>Return Policy</li>
+                            <li>Joint affiliates</li>
+                        </ul>
+                </div>
+                <div class="footer-col-4">
+                        <h3>follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2020- Lapa'am Maigari</p>
+        </div>
+    </div>
+    <!-----------JS for Toggle menu-------------->
+    <script>
+        var MenuItems= document.getElementById("MenuItems");
+
+MenuItems.style.maxHeight = "0px";
+
+function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight="200px";
+    }
+    else
+    {
+        MenuItems.style.maxHeight="0px";
+    }
+}
+    </script>
+
+    </body>
+</html>

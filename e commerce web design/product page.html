@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>all product/abarcos</title>
+        <link href="https//fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700&display=swap">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.boothstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <div class="container"> <div class="navbar">
+                <div class="logo">
+                    <img src="abarcos.PNG" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">product</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="">account</a></li>
+                    </ul>
+                </nav>
+                <img src="cart2.png" width=30px height="30px">
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+                <h2>All products</h2>
+            <select>
+                <option>default sorting</option>
+                <option>sort by price</option>
+                <option>sort by popularity</option>
+                <option>sort by rating<option>
+                <option>sort by sale</option>
+            </select>
+                </div>
+                
+            </div>          
+
+    <div class="small-container">
+
+        <div class="row row-2">
+            <div class="col-4">
+                <img src="" >
+                <h4>mercedes c300</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$30,000</p>
+            </div>
+            <div class="col-4">
+                    <img src="" >
+                    <h4>mercedes c300</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$30,000</p>
+                </div>
+                <div class="col-4">
+                        <img src="" >
+                        <h4>mercedes c300</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$30,000</p>
+                    </div>
+        </div>
+        
+    <!----------footer----------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>download our app for ios and mobile devices</p>
+                    <div class="app-logo">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                        <img src="abarcos2.PNG">
+                        <p>our purpose is to make you cruise in style with affordable cars</p>
+                </div>
+                <div class="footer-col-3">
+                        <h3>useful links</h3>
+                        <ul>
+                            <li>coupons</li>
+                            <li>blog posts</li>
+                            <li>return policy</li>
+                            <li>joint affiliates</li>
+                        </ul>
+                </div>
+                <div class="footer-col-4">
+                        <h3>follow us</h3>
+                        <ul>
+                            <li>facebook</li>
+                            <li>twitter</li>
+                            <li>instagram</li>
+                            <li>youtube</li>
+                        </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2020 - lapa'am Maigari</p>
+        </div>
+    </div>
+
+    <!-----------JS for toggle menu----------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight ="0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight=="0px";
+            } 
+        }
+    </script>
+
+
+    
+    </body>
+</html>
